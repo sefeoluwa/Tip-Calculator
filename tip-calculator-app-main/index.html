@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Frontend Mentor | Tip calculator app</title>
+
+
+ 
+</head>
+<body>
+
+ <div class="wrapper">
+   <div class="calc">
+     <div class="calc-left">
+       <div class="cl-input">
+         <label for="bill"> Bill</label>
+         <div class="form-input">
+           <span>$</span>
+           <input type="number" id="bill" aria-label="bill"  >
+         </div>
+       </div>
+       <h3 class="cl-tips-title">Select Tip %</h3>
+       <div class="cl-tips">
+           <div class="cl-tip">5%</div>
+           <div class="cl-tip">10%</div>
+           <div class="cl-tip">15%</div>
+           <div class="cl-tip">25%</div>
+           <div class="cl-tip">50%</div>
+           <div class="cl-tip cl-tip-custom">Custom</div>
+       </div>
+       <div class="cl-input">
+         <label for="people">Number of People</label>
+         <div class="form-input">
+          <span class="material-symbols-outlined">
+            person
+            </span>
+           <input type="number" id="people" aria-label="Number of People">
+        </div>
+      </div>
+     </div>
+     <div class="calc-right">
+       <div class="cr-wrapper"> 
+         <div class="tip">
+           <div class="tip-info">
+             <h3 class="tip-title">Tip Amount</h3>
+             <p class="tip-subtitle">/person</p>
+           </div>
+             <h3 class="tip-amount"> $0.00</h3>
+         </div>
+         <div class="tip">
+           <div class="tip-info">
+           <h3 class="tip-title">Total</h3>
+           <p class="tip-subtitle">/person</p>
+           </div>
+         <h3 class="tip-amount"> $0.00</h3>
+          </div>
+       </div>
+       <div class="tip-action">
+         <button class="tip-button"> Reset</button>
+       </div>
+      </div>
+     </div>
+   </div>
+
+ <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>
+
